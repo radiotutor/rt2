@@ -2,9 +2,9 @@ const targetAddress = new URL(process.env.TARGET_ADDRESS || `http://2.radiotutor
 
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Radiotutor`,
+    description: `Radio Tutor offers free mock exams and courses for all 3 of the UK amateur licence exams.`,
+    author: `pe5er && abaft`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
