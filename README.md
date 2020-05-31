@@ -2,6 +2,8 @@
 
 # WIP - Not Up To Date
 
+# Old Readme
+
 # Table of Contents
 
 - [Introduction](https://github.com/radiotutor/radiotutor/#introduction)
@@ -37,10 +39,10 @@ RadioTutor provides free, online mock tests to help students prepare for UK Amat
 
 
 ### Is it safe?
-We strive to ensure that Radiotutor is as safe as possible. To do this, we use HTTPS as standard, and hash and salt user passwords using industry standard methods.
+We strive to ensure that Radiotutor is as safe as possible. To do this, we use HTTPS as standard, and use industry standard methods to protect logins and user data.
 
 # Requirements
-Linux box with Go environment installed. Our release instance is running on Amazon Linux AMI. For development, check out [Vagrant](https://www.vagrantup.com/)
+Linux box. Ubuntu works well. For development, check out [Vagrant](https://www.vagrantup.com/)
 
 # Roadmap
 
@@ -56,8 +58,31 @@ Linux box with Go environment installed. Our release instance is running on Amaz
 
 # Development Environment
 
-WIP
+Set upa  Gatsby development environment using the [Gatsby quick start guide](https://www.gatsbyjs.org/tutorial/part-zero/)
 
-TL;DR, use the Gatsby quick start guide
+Clone our repo
+
+```
+git clone https://github.com/radiotutor/rt2
+```
+
+* Install dependancies
+
+```
+npm install
+```
+
+* Build site
+
+```
+gatsby develop
+```
+
+OR
+
+```
+gatsby build && gatsby serve
+```
+
 
 __That's It! Congratulations__
