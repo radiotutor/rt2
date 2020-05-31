@@ -1,5 +1,7 @@
 ![banner](media/git_banner.png)
 
+![Build Status](https://codebuild.us-east-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiRzMrbWVOVjNTWEd4a3FIUk9xU2lTYmFERGVFRnhLL05BV0VuSDMyNUpZMi9WZFBLY1FHVklmK2ZKN2F3Ujh4Y0txcVhQWVM1OTl3NVp4dmZTOTk4K25JPSIsIml2UGFyYW1ldGVyU3BlYyI6IlJNK2p6YzBQbUNhbXpiWFAiLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=master)
+
 # WIP - Not Up To Date
 
 # Table of Contents
