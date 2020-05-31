@@ -35,7 +35,7 @@ const Layout = ({ children }) => {
       >
         <main>{children}</main>
         <footer>
-          © {new Date().getFullYear()} Radio Tutor Ltd. View on
+          © {new Date().getFullYear()} Radio Tutor Ltd. Company Number: 11521912. View on
           {` `}
           <a href="https://www.github.com/radiotutor/rt2">Github</a>
         </footer>
