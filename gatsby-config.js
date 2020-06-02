@@ -23,15 +23,15 @@ module.exports = {
         name: `Radiotutor`,
         short_name: `Radiotutor`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#3b00ff`,
+        theme_color: `#3b00ff`,
         display: `standalone`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/logo_512.png`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-offline`,
     {
-      resolve: `gatsby-plugin-s3`,
+      resolve: `gatsby-plugin-s3`,  
       options: {
           bucketName: process.env.TARGET_BUCKET_NAME || "fake-bucket",
           region: process.env.AWS_REGION,
