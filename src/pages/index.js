@@ -10,7 +10,6 @@ const IndexPage = () => (
     <SEO title="Home" />
     <h1>Home</h1>
     <p>Welcome to the new radiotutor. We're working on something special, check back soon!</p>
-    <Link to="/page-2/">Go to page 2</Link> <br />
   </Layout>
 )
 
